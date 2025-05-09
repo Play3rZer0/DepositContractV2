@@ -18,7 +18,7 @@ contract Ownable {
 }
 
 //The main contract for depositing ETH
-contract DepositBox is Ownable {
+contract DepositBoxV2 is Ownable {
     /* Create a mapping of wallet address to a balances variable which tracks
     the deposit amount */
     mapping(address => uint256) balances;
